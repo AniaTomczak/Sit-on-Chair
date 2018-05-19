@@ -1,4 +1,162 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif, 'Tahoma', sans-serif, 'Arial', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 47px;
+    background-color: black;
+    margin: 0 auto;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.logo_header{
+    line-height: 12px;
+    width: 500px;
+    float: left;
+    color: white;
+}
+
+.blue_color{
+    color: #00C1A2;
+    font-weight: 700;
+}
+
+
+.menu ul{
+    float: right;
+    line-height: 12px;
+}
+
+li{
+    display: inline-block;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+ul > li {
+    float: left;
+    width: 130px;
+    height: 46px;
+    text-align: right;
+}
+
+
+.section_one{
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(211,208,217,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(211,208,217,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(211,208,217,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(211,208,217,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(211,208,217,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(211,208,217,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d3d0d9', GradientType=0 );
+    height: 600px;
+    width: 100%;
+}
+
+.arrow{
+    color: #00C1A2;
+    float: left;
+    width: 100px;
+    height: 100px;
+    font-size: 90px;
+    margin-top: 220px;
+}
+
+.black_chair{
+    background-image: url("../images/black_chair.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 500px;
+    background-position: center;
+    float:left;
+    margin-top: 55px;
+}
+
+.chair_content{
+    float:left;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 145px;
+}
+
+.button{
+    height: 60px;
+    width: 315px;
+    background-color: #00C1A2;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+
+.chair_text{
+    margin: 40px 0 40px 0;
+    line-height: 30px;
+}
+
+.button_chair{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.right{
+    margin-left: 60px;
+}
+
+.section_two{
+    height: 420px;
+}
+
+.chair_clair{
+    background-image: url("../images/box1_img.jpg");
+    height: 256px;
+    width: 395px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin-right: 25px;
+}
+
+.chair_margarita{
+    background-image: url("../images/box2_img.jpg");
+    height: 256px;
+    width: 395px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin-right: 25px;
+}
+
+
+.chair_text_two{
+    height: 300px;
+    width: 405px;
+    border: #E1E1E1 solid 1px;
+    float: left;
+
 }
