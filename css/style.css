@@ -160,3 +160,57 @@ h1 {
     float: left;
 
 }
+
+.opacity{
+    width: 395px;
+    height: 70px;
+    background-color: white;
+    opacity: 0.6;
+    margin-top:160px;
+    position: relative;
+}
+
+.opacity > p{
+    top: 25px;
+    left: 20px;
+    position: absolute;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.blue_line{
+    height: 10px;
+    width: 170px;
+    background-color: #00C1A2;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+
+.chair_text_two{
+    padding: 35px 35px 60px 25px;
+}
+
+
+.blue_line2{
+    height: 10px;
+    width: 170px;
+    background-color: #00C1A2;
+    margin-top: 5px;
+}
+
+.chair_text_two p:first-child{
+
+}
+
+.chair_text_two p:nth-child(3){
+    margin-top: 25px;
+}
+
+.chair_text_two p:last-child{
+    margin-top: 30px;
+}
+
+.bold{
+    font-weight: 500;
+}
